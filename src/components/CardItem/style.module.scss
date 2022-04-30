@@ -1,0 +1,30 @@
+.CardItem {
+    position: relative;
+    padding: 10px 30px;
+    border: 2px solid;
+    width: 200px;
+  
+    img {
+      width: 200px;
+    }
+  
+    &__btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background-color: transparent;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  
+    &__btn:hover {
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+      transition: all 0.35;
+    }
+  
+    &__btn:active {
+      text-shadow: 0 0 4px black;
+      transition: all 0.35;
+    }
+  }

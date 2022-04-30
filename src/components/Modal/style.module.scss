@@ -1,0 +1,18 @@
+.Modal {
+    position: fixed;
+    top: calc(100px);
+    left: calc(50% - 170px);
+    padding: 20px 80px;
+    max-width: 200px;
+  
+    background-color: lightseagreen;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.35);
+  
+    transform: all 0.35s;
+  
+    &__paragraph {
+      color: white;
+      font-size: 1.4rem;
+    }
+  }
